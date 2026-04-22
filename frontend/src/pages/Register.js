@@ -12,7 +12,7 @@ function Register() {
     e.preventDefault();
 
     try {
-      const res = await axios.post(
+ await axios.post(
   "https://student-auth-system-b8k8.onrender.com/api/register",
   form
 );
